@@ -39,7 +39,7 @@ def balance_teams(cleaned_players_list, teams):
     return populate_teams
 
 
-def display_team_stats(filled_teams, selected_team):
+def display_team_stats(populate_teams, selected_team):
     print(f"\nTeam: {list(populate_teams.keys())[selected_team - 1]} Stats")
     print("--------------------")
     print()
